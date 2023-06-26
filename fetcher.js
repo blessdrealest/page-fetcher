@@ -1,8 +1,3 @@
-/* Takes 2 CLI; URL and local file path
-download resource at URL to local path on machine
-print out msg like "Downloaded and saved 1235 bytes to ./index.html"
-*/
-
 const request = require('request');
 const fs = require("fs");
 

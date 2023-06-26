@@ -5,4 +5,4 @@ request('http://www.example.edu/', (error, response, body) => {
   console.log('body:', body); // Print the HTML for the Google homepage.
 });
 
-module.exports = { request };
+module.exports = { request }
